@@ -6,7 +6,7 @@ function Form() {
             <div className="expensesForm__descriptionDiv">
                 <label className="caption" htmlFor="description">Descrição</label>
                 <input placeholder="Digite sua descrição aqui"type="text" name="description" id="formDescription" />
-                <span className="expensesForm__descriptionDiv-descriptionExample">Ex: Comprar de roupas</span>
+                <span className="expensesForm__descriptionDiv-descriptionExample">Ex: Compra de roupas</span>
             </div>
             <div className="expensesForm__valueDiv">
                 <div className="expensesForm__valueDiv-value">

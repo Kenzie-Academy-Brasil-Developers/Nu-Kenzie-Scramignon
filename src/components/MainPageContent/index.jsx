@@ -4,6 +4,7 @@ import TotalMoney from "../TotalMoney";
 import ExpensesOverview from "../ExpensesOverview";
 
 
+
 function MainPageContent() {
     return (
         <main>

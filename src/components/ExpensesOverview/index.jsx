@@ -1,4 +1,6 @@
 import "./style.css";
+import EmptyOverviewContent from "../EmptyOverviewContent";
+import OverviewItems from "../OverviewItems";
 
 function ExpensesOverview() {
     return (
@@ -12,22 +14,14 @@ function ExpensesOverview() {
                 </div>
             </div>
             <div className="expensesOverview__warning">
-                <p className="title2 expensesOverview__warning-p">Você ainda não possui nenhum lançamento</p>
+                <p className="title2 expensesOverview__warning-p" style={{display: "none"}}>Você ainda não possui nenhum lançamento</p>
             </div>
             <div className="expensesOverview__content">
                 <ul className="expensesOverview__content-ul">
-                    <li className="expensesOverview__content-ul-li">
-                        <div className="greyBar1"></div>
-                        <div className="greyBar2"></div>
-                    </li>
-                    <li className="expensesOverview__content-ul-li">
-                        <div className="greyBar1"></div>
-                        <div className="greyBar2"></div>
-                    </li>
-                    <li className="expensesOverview__content-ul-li">
-                        <div className="greyBar1"></div>
-                        <div className="greyBar2"></div>
-                    </li>
+                    <OverviewItems/>
+                    <OverviewItems/>
+                    <OverviewItems/>
+                    {/* <EmptyOverviewContent /> */}
                 </ul>
             </div>
         </div>
