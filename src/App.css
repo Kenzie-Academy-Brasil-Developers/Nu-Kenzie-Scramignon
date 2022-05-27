@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+
+:root {
+  /* colors */
+  --color-primary: #FD377E;
+  --color-primary-2: #E34981;
+  --color-seconday: #03B898;
+
+  --grey-1: #F8F9FA;
+  --grey-2: #E9ECEF;
+  --grey-3: #868E96;
+  --grey-4: #212529;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* texts */
+.title1 {
+  font-family: Nunito;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: var(--grey-4);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title2 {
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: var(--grey-4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title3 {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: var(--grey-4);
 }
 
-.App-link {
-  color: #61dafb;
+.title4 {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: var(--grey-4);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headline {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: var(--grey-3);
+}
+
+.body {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: var(--grey-3);
 }
