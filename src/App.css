@@ -78,3 +78,13 @@
 
   color: var(--grey-3);
 }
+
+.caption {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 18px;
+
+  color: #000000;
+}
