@@ -22,7 +22,7 @@ function Form() {
                 </div>
             </div>
             <div className="expensesForm__buttonDiv">
-                <button className="expensesForm__buttonDiv-button">Inserir valor</button>
+                <button type="submit" className="expensesForm__buttonDiv-button">Inserir valor</button>
             </div>
         </form>
     )
