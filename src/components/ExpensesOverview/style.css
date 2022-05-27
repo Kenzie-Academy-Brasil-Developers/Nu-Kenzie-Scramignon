@@ -1,0 +1,79 @@
+.expensesOverview {
+    width: 90vw;
+    max-width: 497.89px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.expensesOverview__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expensesOverview__header span {
+    font-size: 15px;
+}
+
+.expensesOverview__header-buttonDiv {
+    display: flex;
+    gap: 5px;
+}
+
+.expensesOverview__header-buttonDiv-button {
+    padding: 10px 3px;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+}
+
+.expensesOverview__header-buttonDiv-button:hover {
+    background: var(--color-primary);
+    color: white;
+    transition: 0.333s;
+}
+
+.expensesOverview__warning-p {
+    color: var(--grey-3);
+}
+
+
+.expensesOverview__content {
+    width: 90vw;
+}
+
+.expensesOverview__content-ul {
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+}
+
+.expensesOverview__content-ul-li {
+    background: var(--grey-1);
+    width: 98%;
+    height: 70px;
+    border-radius: 4px;
+    max-width: 497.89px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    padding-left: 2vw;
+
+}
+
+.greyBar1 {
+    width: 60%;
+    height: 10px;
+    background: var(--grey-2);
+}
+
+.greyBar2 {
+    width: 25%;
+    height: 10px;
+    background: var(--grey-2);
+}

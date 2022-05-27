@@ -15,7 +15,7 @@ function Form() {
                 </div>
                 <div className="expensesForm__valueDiv-type">
                     <label htmlFor="valueType">Tipo de valor</label>
-                    <select style={{color: "var(--grey-3)"}} id="selectType"name="valueType">
+                    <select id="selectType"name="valueType">
                         <option value="entradas">Entradas</option>
                         <option value="despesas">Despesas</option>
                     </select>
