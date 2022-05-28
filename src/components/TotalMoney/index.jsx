@@ -2,7 +2,7 @@ import "./style.css";
 
 function TotalMoney() {
     return (
-        <div className="totalMoney" style={{display: "none"}}>
+        <div className="totalMoney">
             <div className="totalMoney__valueDiv">
                 <span className="title3">Valor total</span>
                 <span className="title3">R$ 8456</span>

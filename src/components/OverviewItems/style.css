@@ -41,6 +41,7 @@
 @media(min-width: 768px) {
     .expensesOverview__content-ul-li {
         height: 100px;
+        min-width: 497.88px;
     }
 
     .expensesOverview__content {

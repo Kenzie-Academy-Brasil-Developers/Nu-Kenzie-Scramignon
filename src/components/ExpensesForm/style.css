@@ -165,6 +165,7 @@
 @media (min-width: 768px) {
     .expensesForm {
         width: 25vw;
+        min-width: 240.75px;
     }
 
     .expensesForm__valueDiv label{
@@ -174,4 +175,6 @@
     .expensesForm__valueDiv-type {
         width: 40%;
     }
+
+
 }
