@@ -16,6 +16,10 @@
     border-left: 4px solid var(--color-secondary);
 }
 
+.alt {
+    border-left: 4px solid var(--grey-2);
+} 
+
 .greyBar1 {
     width: 60%;
     height: 10px;
@@ -36,6 +40,11 @@
 
 .overviewLiUpperDiv p, .overviewLiUpperDiv span {
     font-size: 13px;
+}
+
+.buttonTrashImg:hover {
+    cursor: pointer;
+    background: var(--grey-2);
 }
 
 @media(min-width: 768px) {
