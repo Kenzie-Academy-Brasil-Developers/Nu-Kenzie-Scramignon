@@ -8,10 +8,10 @@ import { useState } from "react"
 
 function MainPageContent() {
     const [listTransactions, setListTransactions] = useState([
-        { description: "Salário recebido", type: "entrada", value: 2500 },
-        { description: "Conta de luz", type: "despesa", value: -150 }
+        // { description: "Salário recebido", type: "entrada", value: 2500 },
+        // { description: "Conta de luz", type: "despesa", value: -150 }
     ]);
-    const [isTotalMoneyActive, setIsTotalMoneyActive] = useState(true);
+    const [isTotalMoneyActive, setIsTotalMoneyActive] = useState(false);
 
 
     return (
@@ -21,7 +21,7 @@ function MainPageContent() {
                 <TotalMoney isTotalMoneyActive={isTotalMoneyActive} listTransactions={listTransactions}/>
             </section>
             <section className="desktopRight">
-                <ExpensesOverview isTotalMoneyActive={isTotalMoneyActive} listTransactions={ listTransactions }/>
+                <ExpensesOverview setIsTotalMoneyActive={setIsTotalMoneyActive} setListTransactions={setListTransactions} isTotalMoneyActive={isTotalMoneyActive} listTransactions={ listTransactions }/>
             </section>
         </main>
     )

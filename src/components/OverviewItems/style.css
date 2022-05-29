@@ -38,13 +38,27 @@
 }
 
 
-.overviewLiUpperDiv p, .overviewLiUpperDiv span {
+.overviewLiUpperDiv span {
     font-size: 13px;
+    font-family: 'Nunito';
+    font-weight: 400;
+}
+
+.overviewLiUpperDiv p {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.overviewLiLowerDiv span {
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: 400;
 }
 
 .buttonTrashImg:hover {
     cursor: pointer;
-    background: var(--grey-2);
+    fill: var(--grey-3);
 }
 
 @media(min-width: 768px) {

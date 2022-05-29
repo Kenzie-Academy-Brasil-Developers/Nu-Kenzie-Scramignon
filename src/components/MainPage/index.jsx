@@ -2,10 +2,10 @@ import Header from "../Header";
 import MainPageContent from "../MainPageContent";
 import "./style.css"
 
-function MainPage() {
+function MainPage({setRenderMainPage}) {
     return (
         <>
-            <Header />
+            <Header setRenderMainPage={setRenderMainPage}/>
             <MainPageContent />
         </>
         
