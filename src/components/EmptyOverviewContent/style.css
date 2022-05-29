@@ -1,0 +1,40 @@
+
+
+.expensesOverview__content-ul-li {
+    background: var(--grey-1);
+    width: 98%;
+    height: 70px;
+    border-radius: 4px;
+    max-width: 497.89px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    padding-left: 2vw;
+
+}
+
+.greyBar1 {
+    width: 60%;
+    height: 10px;
+    background: var(--grey-2);
+}
+
+.greyBar2 {
+    width: 25%;
+    height: 10px;
+    background: var(--grey-2);
+}
+
+@media(min-width: 768px) {
+    .expensesOverview__content-ul-li {
+        height: 100px;
+    }
+
+    .expensesOverview__content {
+        width: 52vw;
+    }
+    
+}

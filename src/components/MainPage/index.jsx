@@ -1,10 +1,14 @@
+import Header from "../Header";
+import MainPageContent from "../MainPageContent";
 import "./style.css"
 
-function MainPage() {
+function MainPage({setRenderMainPage}) {
     return (
-        <div className="mainPage">
-
-        </div>
+        <>
+            <Header setRenderMainPage={setRenderMainPage}/>
+            <MainPageContent />
+        </>
+        
     )
 }
 
